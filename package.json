@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
+    "eslint": "^6.0.1",
     "hexo": "^3.9.0",
     "hexo-admin": "^2.3.0",
     "hexo-deployer-git": "^0.3.1",
@@ -21,6 +22,7 @@
     "hexo-renderer-marked": "^1.0.1",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.2",
+    "hexo-symbols-count-time": "^0.6.0",
     "minimatch": "^3.0.4"
   }
 }

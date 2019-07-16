@@ -113,9 +113,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 #scheme: Gemini
 
 
@@ -400,7 +400,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC80NTM1NS8yMTg2OA==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -568,18 +568,25 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
-  site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
+  site_uv: false
+  site_uv_header: 本站访问人数
   site_uv_footer: 人次
   # custom pv span for the whole site
-  site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv: false
+  site_pv_header: 本站总访问量
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: 本文阅读量
   page_pv_footer: 次
-
+  #
+  #enable: true
+  #total_visitors: true
+  #total_visitors_icon: user
+  #total_views: true
+  #total_views_icon: eye
+  #post_views: false
+  #post_views_icon: eye
 
 # Tencent analytics ID
 # tencent_analytics:

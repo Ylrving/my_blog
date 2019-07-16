@@ -1,9 +1,9 @@
 // Custom styles.
 body { 
-	background-image: url(/images/bj.jpg);
-	background-attachment: fixed; // 不随屏幕滚动而滚动
-	background-repeat: yes-repeat; // 如果背景图不够屏幕大小则重复铺，改为no-repeat则表示不重复铺
-	//background-size: contain; // 等比例铺满屏幕
+	background-image: url('https://s2.ax1x.com/2019/07/16/Z7NTjx.jpg');
+        background-attachment: fixed; // 不随屏幕滚动而滚动
+        background-repeat: no-repeat; // 如果背景图不够屏幕大小则重复铺，改为no-repeat则表示不重复铺
+	background-size: cover; // 等比例铺满屏幕
 }
 .bg_content {
   position: fixed;
@@ -13,11 +13,31 @@ body {
   height: 100%;
 }
 .header-inner{
-	opacity: 0.8;
+	//opacity: 20;
+    margin-top: 3px;
+    padding: 60px 60px 60px 60px;
+    //background-image: url('https://s2.ax1x.com/2019/07/16/Z7yeG8.md.jpg');    
+    background: #fff;
+    opacity: 0.8;
+    min-height: 10px;
+
 }
 .main-inner { 
-   // margin-top: 60px;
-   // padding: 60px 60px 60px 60px;
+    background-image: url('https://s2.ax1x.com/2019/07/16/Z7sbr9.jpg');
+    margin-top: 60px;
+    padding: 60px 60px 60px 60px;
+    //background: #fff;
+    opacity: 0.9;
+    min-height: 500px;
+}
+#sidebar {
+           p,span,a {color: #ffffff;}
+}
 
-    opacity: 1;
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
 }
