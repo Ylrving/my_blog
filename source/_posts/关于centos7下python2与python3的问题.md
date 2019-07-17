@@ -1,7 +1,7 @@
 ---
 title: 关于centos7下python2与python3的问题
 copyright: true
-date: 2019-07-17 13:39:36
+date: 2019-06-17 13:39:36
 tags:
 ---
 
