@@ -1,12 +1,13 @@
 ---
-title: 1第一篇文章测试
+title: centos7安装mysql并远程访问
 data: 2019-02-16 15:41:22
 tags: [centos,mysql]
 ---
 {% cq %}
-比较全面的一篇教程！
+要想sql写的好，就先工具装的好！
 {% endcq %}
 <!--more-->
+
 # 彻底卸载原有的mysql
 查询之前安装的mysql的依赖包
 ```
@@ -64,7 +65,7 @@ mysql-community-server
 此时mysql已经安装完成，查看mysql版本
 
     mysql --version
-    
+
 启动mysql服务并找到初始密码：
 
     service mysqld start
@@ -91,7 +92,7 @@ mysql-community-server
 刷新权限：
 
     FLUSH  PRIVILEGES;
-    
+
 
 ## 虚拟机可以选择关闭防火墙
 
@@ -103,7 +104,7 @@ mysql-community-server
 
     // --permanent 永久生效,没有此参数重启后失效
     firewall-cmd --zone=public --add-port=3306/tcp --permanent 
-   
+
 重新载入
 
     firewall-cmd --reload

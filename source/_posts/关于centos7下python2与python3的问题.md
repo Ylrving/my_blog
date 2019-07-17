@@ -1,12 +1,12 @@
 ---
-title: 2第二篇文章测试
+title: 关于centos7下python2与python3的问题
 copyright: true
-date: 2019-07-12 18:11:33
-tags: [python,centos]
+date: 2019-07-17 13:39:36
+tags:
 ---
 
 {% cq %}
-又是比较全面的一篇安装教程！
+如何优雅的让python2与python3共存
 {% endcq %}
 <!--more-->
 
