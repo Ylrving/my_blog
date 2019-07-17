@@ -98,7 +98,7 @@ menu:
 
   #关于: /about/ || user
   tags: /tags/ || tags
-  categories: /categories/ || th
+  #categories: /categories/ || th
   关于: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
