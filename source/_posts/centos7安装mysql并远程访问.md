@@ -1,8 +1,12 @@
 ---
 title: centos7安装mysql并远程访问
-data: 2018-12-16 15:41:22
+copyright: true
+date: 2018-12-06 15:23:06
 tags: [centos,mysql]
+top: 2
 ---
+
+
 {% cq %}
 要想sql写的好，得先工具装的好！
 {% endcq %}

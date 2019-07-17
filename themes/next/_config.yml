@@ -52,6 +52,7 @@ footer:
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: 江西彭于晏
+  
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
@@ -129,8 +130,9 @@ scheme: Muse
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/Ylrving
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/Ylrving || github
+  QQ: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=670823709&website=www.oicqzone.com 
+  #E-Mail: mailto:670823709@qq.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -139,7 +141,7 @@ social:
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
-  CSDN: https://blog.csdn.net/qq_41682798
+  CSDN: https://blog.csdn.net/qq_41682798 || crosshairs
 
 social_icons:
   enable: true
@@ -147,6 +149,7 @@ social_icons:
   transition: false
   GitHub: github
   CSDN: rotate-right
+  
 
 # Blog rolls
 links_icon: link
