@@ -95,7 +95,6 @@ display_updated: true
 menu:
   首页: / || home
   所有文章: /archives/ || archive
-
   #关于: /about/ || user
   tags: /tags/ || tags
   #categories: /categories/ || th
