@@ -1,2 +1,9 @@
-nohup hexo s > my.log 2>&1 &
+#!/bin/sh
+cd /root/hexo
+pkill -9 hexo
+pwd
+hexo s
+echo "restart hexo process...."
+
+
 
