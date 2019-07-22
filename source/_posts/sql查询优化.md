@@ -2,7 +2,7 @@
 layout: hive
 title: sql查询优化
 date: 2019-07-19 09:21:27
-tags: [hive,sql,优化]
+tags: [hive,sql]
 ---
 
 {% cq %}
@@ -26,4 +26,13 @@ select m.cid,u.id from order m join customer u on m.cid=u.id where m.dt='2013-12
 
 ```
 select m.cid,u.id from (select cid from order where dt='2013-12-12')m join customer u on m.cid=u.id;
+```
+### 2.or优化
+优化前：
+```
+select * from t1 where 条件1 or 条件2；
+```
+优化后：
+```
+select * from t1 where 条件1 union all select * from t1 where 条件2;
 ```
