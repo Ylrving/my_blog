@@ -3,7 +3,7 @@ title: centos7安装mysql并远程访问
 copyright: true
 date: 2018-12-06 15:23:06
 tags: [centos,mysql]
-top: 1
+top: False
 ---
 
 
