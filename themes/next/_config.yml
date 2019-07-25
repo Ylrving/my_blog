@@ -96,9 +96,12 @@ menu:
   首页: / || home
   归档: /archives/ || archive
   #关于: /about/ || user
-  tags: /tags/ || tags
+  
+  简历: /about/ || user
+  回收: /photo/ || sitemap
+  标签: /tags/ || tags
   #categories: /categories/ || th
-  朕: /about/ || user
+  
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
