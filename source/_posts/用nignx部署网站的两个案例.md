@@ -9,7 +9,8 @@ top: true
 nginx两种简单的部署方法
 {% endcq %}
 <!--more-->
-{% note info %} 首先说说我的环境：用[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)一键装的LNMP环境（linux、nginx、mysql、php）
+{% note info %} 首先说说我的环境：
+				用[宝塔面板](https://www.bt.cn/bbs/thread-19376-1-1.html)一键装的LNMP环境（linux、nginx、mysql、php）
                 nginx安装目录：/www/server/nginx
                 nginx配置文件：/www/server/panel/vhost/nginx/目录下的所有.conf文件。
 {% endnote %}
@@ -21,7 +22,7 @@ nginx两种简单的部署方法
 首先将ssl证书放到nginx下的配置文件目录下的cert目录（需要新建）下，再将下载的证书复制过去即可
 进入/www/server/panel/vhost/nginx/下新建一个blog.conf作为博客的配置文件，vim编辑改文件，内容如下：
 ```
-[root@superyaqi nginx]# cd /www/server/panel/vhost/nginx/
+[root@superyaqi ~]# cd /www/server/panel/vhost/nginx/
 [root@superyaqi nginx]# vim blog.conf
 ```
 ![](https://img.superyaqi.top/images/2019/07/23/04.png)
