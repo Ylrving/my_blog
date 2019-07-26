@@ -10,7 +10,7 @@ tags: [jupyter,python]
 {% endcq %}
 <!--more-->
 
-之前用的是anaconda和nginx来部署jupyter的，由于一直输入py命令一直连接不上服务器，在改了半天的配置后放弃了，以为是服务器内python的兼容问题，于是卸载anaconda，装了个pyenv，结果发现还是运行不了，然后在折腾的过程中发现当输入ip访问jupyter的时候能连接上，但是输入域名就不行了，然后才想到可能是nginx配置问题，于是网上搜了一下果然有一个叫websocket需要配置，然后有尝试了一次，终于成功了！下面是操作操作的全过程
+之前用的是anaconda和nginx来部署jupyter的，由于一直输入py命令一直连接不上服务器，在改了半天的配置后放弃了，以为是服务器内python的兼容问题，于是卸载anaconda，装了个pyenv，结果发现还是运行不了，然后在折腾的过程中发现当输入ip访问jupyter的时候能连接上，但是输入域名就不行了，然后才想到可能是nginx配置问题，于是网上搜了一下果然有一个叫websocket需要配置，然后又尝试了一次，终于成功了！下面是操作操作的全过程
 # 安装pyenv
 ```
 yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel libpcap-devel xz-devel
