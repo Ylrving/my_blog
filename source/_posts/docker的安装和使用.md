@@ -46,7 +46,7 @@ tags: [docker,mysql]
     sudo docker info
 
 如此时docker版本信息会在终端打印出来，则docker安装成功。
-# 案例：mysql容器部署
+# 案例一：mysql容器部署
 
     docker run -di --name=test_mysql -p 33308:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
 
@@ -60,7 +60,25 @@ mysql 代表镜像名称
     mysql -h127.0.0.1  -P33308 -u root -p
 -h后面填写本地IP，-P后面填写映射的端口号，上面的命令可以看到我们映射的是33308端口
 
+# 案例二：tomcat部署
+```
+#从dockerhub上拉取镜像
+docker pull tomcat
+#运行tomcat
+docker run --name tomcat -p 8090:8080 -d tomcat:latest
+```
+## 部署应用
+```
+#进入tomcat容器内
+docker exec -it tomcat bash
+ls
+cd webapps
+#将war包放进来即可
+```
+
+
 
 原文出处：
 [docker的安装与简介](https://blog.xielin.top/2019/03/28/Docker/docker%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85/)   
  [docker常用命令总结](https://blog.xielin.top/2019/04/05/Docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/)
+ 
