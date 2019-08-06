@@ -3,7 +3,7 @@ title: 用nignx部署网站的两个案例
 copyright: true
 date: 2019-07-20 08:46:05
 tags: [nginx]
-top: true
+top: 
 ---
 {% cq %}
 nginx两种简单的部署方法

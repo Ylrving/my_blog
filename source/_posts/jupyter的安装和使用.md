@@ -152,3 +152,21 @@ server
 ```
 
 安装部署到此结束，现在就可以愉快的写python笔记了
+
+
+# 其他功能
+## 代码补全功能
+安装nbextensions
+```
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+```
+安装nbextensions_configurator
+```
+pip install jupyter_nbextensions_configurator
+jupyter nbextensions_configurator enable --user
+
+```
+如果提示缺少依赖，就使用pip安装对应依赖即可。
+
+然后重启jupyter，在弹出的主页面里，能看到增加了一个Nbextensions标签页，在这个页面里，勾选Hinterland即启用了代码自动补全，打开一个notebook感受一下吧。
